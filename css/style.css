@@ -835,6 +835,7 @@ main .proceso div img {
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
+    margin: 10px;
 }
 
 .video-impresion iframe {
@@ -852,9 +853,7 @@ main .proceso div img {
     padding-bottom: 56.25%;
 }
 
-.video-pintado iframe,
-.video-pintado object,
-.video-pintado embed {
+.video-pintado iframe{
     position: absolute;
     top: 0;
     left: 0;
@@ -1003,7 +1002,7 @@ footer div .fb-logo:hover {
     }
 
     .modelado-3d h3 {
-        width: 105%;
+        width: 100%;
     }
 
     .impresion-3d img {
@@ -1012,7 +1011,7 @@ footer div .fb-logo:hover {
     }
 
     .impresion-3d h3 {
-        width: 105%;
+        width: 100%;
     }
 
     .pintado img {
@@ -1021,7 +1020,7 @@ footer div .fb-logo:hover {
     }
 
     .pintado h3 {
-        width: 105%;
+        width: 100%;
     }
 
     .reparacion img {
@@ -1030,7 +1029,7 @@ footer div .fb-logo:hover {
     }
 
     .reparacion h3 {
-        width: 105%;
+        width: 100%;
     }
 }
 
@@ -1220,6 +1219,7 @@ footer div .fb-logo:hover {
     header nav ul div {
         flex-direction: column;
     }
+    
 
     /*----Index----*/
 
@@ -1328,7 +1328,9 @@ footer div .fb-logo:hover {
 
 @media screen and (max-width:500px) {
 
-    header {
+    /*----Header----*/
+
+    header{
         padding-right: 40px;
     }
 
