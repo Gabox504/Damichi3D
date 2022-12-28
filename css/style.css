@@ -549,6 +549,163 @@ main .proceso div img {
     border: 1px solid black;
 }
 
+/*-------Servicios-----*/
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
+    padding: 15px;
+    width: 100%;
+}
+
+.servicios p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.modelado-3d{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.modelado-3d h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
+    padding: 15px;
+}
+
+.modelado-3d p{
+    width: 70%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    padding: 5px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.modelado-3d img{
+    width: 100%;
+    height: 400px;
+}
+
+.impresion-3d h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
+    padding: 15px;
+}
+
+.impresion-3d p{
+    width: 70%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    padding: 5px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.impresion-3d img{
+    width: 100%;
+    height: 400px;
+}
+
+.pintado{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pintado h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
+    padding: 15px;
+}
+
+.pintado p{
+    width: 70%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    padding: 5px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.pintado img{
+    width: 100%;
+    height: 400px;
+}
+
+.reparacion{
+    margin-bottom: 10px;
+}
+
+.reparacion h3{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
+    padding: 15px;
+}
+
+.reparacion p{
+    width: 70%;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    padding: 5px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.reparacion img{
+    width: 100%;
+    height: 400px;
+}
+
+
+
 
 /*-----Contacto-----*/
 
