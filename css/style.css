@@ -30,6 +30,7 @@ header img {
 header nav ul {
     list-style: none;
     display: flex;
+    margin-top: 10px;
 }
 
 header nav ul div {
@@ -107,6 +108,7 @@ main .hero .hero-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px;
 }
 
 main .hero h2 {
@@ -117,11 +119,21 @@ main .hero h2 {
 }
 
 main .hero p {
+    width: 100%;
     color: black;
     font-size: 15px;
     font-family: 'Anek Devanagari', sans-serif;
     font-size: 20px;
     font-weight: 400;
+    text-align: center;
+}
+
+main .slogan p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -168,8 +180,8 @@ main .productos .productos-macetas a {
 
 
 main .productos .productos-macetas img {
-    width: 550px;
-    height: 50vh;
+    width: 450px;
+    height: 45vh;
     position: relative;
     object-fit: cover;
 }
@@ -207,8 +219,8 @@ main .productos .productos-llaveros a {
 
 
 main .productos .productos-llaveros img {
-    width: 550px;
-    height: 50vh;
+    width: 450px;
+    height: 45vh;
     position: relative;
     object-fit: cover;
 }
@@ -246,8 +258,8 @@ main .productos .productos-figuras a {
 
 
 main .productos .productos-figuras img {
-    width: 550px;
-    height: 50vh;
+    width: 450px;
+    height: 45vh;
     position: relative;
     object-fit: cover;
 }
@@ -262,15 +274,12 @@ main .productos .productos-figuras {
     margin: 15px;
 }
 
-
 main .productos .productos-figuras:hover {
     transform: scale(1.1);
     box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
 }
-
-
 
 main .proceso {
     width: 100%;
@@ -286,14 +295,23 @@ main .proceso .proceso-text {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 main .proceso p {
+    width: 100%;
     color: black;
     text-align: center;
     font-size: 15px;
     font-family: 'Anek Devanagari', sans-serif;
     font-size: 20px;
+}
+
+main .proceso h2 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
 }
 
 main .proceso a {
@@ -313,8 +331,8 @@ main .proceso a:hover {
 }
 
 main .proceso div img {
-    width: 100%;
-    height: 50vh;
+    width: 60vh;
+    height: 40vh;
 }
 
 
@@ -364,8 +382,8 @@ main .proceso div img {
 }
 
 .galeria .galeria-macetas img {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 340px;
     position: relative;
 }
 
@@ -447,8 +465,8 @@ main .proceso div img {
 }
 
 .galeria .galeria-llaveros img {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 340px;
     position: relative;
 }
 
@@ -496,8 +514,8 @@ main .proceso div img {
 }
 
 .galeria .galeria-figuras img {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 340px;
     position: relative;
 }
 
@@ -553,36 +571,6 @@ main .proceso div img {
 .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
-}
-
-.servicios {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.servicios h3 {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-family: 'Anek Devanagari', sans-serif;
-    font-weight: bold;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
-    padding: 15px;
-    width: 100%;
-}
-
-.servicios p {
-    color: black;
-    font-size: 20px;
-    font-family: 'Anek Devanagari', sans-serif;
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
-    width: 50%;
 }
 
 .modelado-3d {
@@ -717,11 +705,7 @@ main .proceso div img {
     height: 400px;
 }
 
-
-
-
 /*-----Contacto-----*/
-
 
 .contacto-h h2 {
     text-align: center;
@@ -761,6 +745,15 @@ main .proceso div img {
     font-size: 20px;
     font-family: 'Anek Devanagari', sans-serif;
     margin: auto;
+}
+
+.slogan-contacto p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .formulario {
@@ -804,8 +797,8 @@ main .proceso div img {
 }
 
 
+/*-----Elaboracion----*/
 
-/*-----Proceso----*/
 .grid-proceso {
     width: 100%;
     height: 100%;
@@ -823,10 +816,11 @@ main .proceso div img {
 
 .grid-proceso p {
     width: 100%;
+    margin: 20px;
+    padding: 15px;
     color: black;
     font-size: 20px;
     font-family: 'Anek Devanagari', sans-serif;
-    text-align: justify;
     text-align: center;
 }
 
@@ -896,8 +890,8 @@ footer h3 {
 }
 
 footer img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     margin: 10px;
 }
 
@@ -926,6 +920,14 @@ footer div .fb-logo:hover {
 }
 
 /*-----Media Query----*/
+
+    /*------Elaboracion-----*/
+
+@media screen and (max-width:1310px){
+    .grid-proceso p{
+        font-size: 17px;
+    }
+}
 
 
 @media screen and (max-width:1090px) {
@@ -957,77 +959,37 @@ footer div .fb-logo:hover {
 
     /*-------Servicios----*/
 
-    .modelado-3d img {
+    .servicios section img{
         height: 300px;
     }
 
-    .modelado-3d p {
-        margin-top: 25px;
-    }
-
-    .impresion-3d img {
-        height: 300px;
-    }
-
-    .impresion-3d p {
-        margin-top: 25px;
-    }
-
-    .pintado img {
-        height: 300px;
-    }
-
-    .pintado p {
-        margin-top: 25px;
-    }
-
-    .reparacion img {
-        height: 300px;
-    }
-
-    .reparacion p {
+    .servicios section p{
         margin-top: 25px;
     }
 
 }
 
+@media screen and (max-width:990px){
+    
+    /*-----Elaboracion-----*/
+
+    .grid-proceso p{
+        font-size: 15px;
+        margin: 0;
+    }
+}
+
+
 @media screen and (max-width:767px) {
 
     /*-----Servicios----*/
 
-    .modelado-3d img {
+    .servicios section img{
         width: 50%;
         height: 300px;
     }
 
-    .modelado-3d h3 {
-        width: 100%;
-    }
-
-    .impresion-3d img {
-        width: 50%;
-        height: 300px;
-    }
-
-    .impresion-3d h3 {
-        width: 100%;
-    }
-
-    .pintado img {
-        width: 50%;
-        height: 300px;
-    }
-
-    .pintado h3 {
-        width: 100%;
-    }
-
-    .reparacion img {
-        width: 50%;
-        height: 300px;
-    }
-
-    .reparacion h3 {
+    .servicios section h3{
         width: 100%;
     }
 }
@@ -1042,57 +1004,30 @@ footer div .fb-logo:hover {
         padding: 10px;
     }
 
-    .galeria .galeria-macetas-uno img {
+    .galeria .galeria-macetas img{
         width: 250px;
-        height: 250px;
+        height: 290px;
     }
 
-    .galeria .galeria-macetas-uno a {
+    .galeria .galeria-macetas a{
         font-size: 13px;
     }
 
-    .galeria .galeria-macetas-dos img {
+    .galeria .galeria-llaveros img{
         width: 250px;
-        height: 250px;
+        height: 290px;
     }
 
-    .galeria .galeria-macetas-dos a {
+    .galeria .galeria-llaveros a{
         font-size: 13px;
     }
 
-    .galeria .galeria-macetas-tres img {
+    .galeria .galeria-figuras img{
         width: 250px;
-        height: 250px;
+        height: 290px;
     }
 
-    .galeria .galeria-macetas-tres a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-macetas-cuatro img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-macetas-cuatro a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-macetas-cinco img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-macetas-cinco a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-macetas-seis img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-macetas-seis a {
+    .galeria .galeria-figuras a{
         font-size: 13px;
     }
 
@@ -1101,84 +1036,14 @@ footer div .fb-logo:hover {
         padding: 10px;
     }
 
-    .galeria .galeria-llaveros-uno img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-llaveros-uno a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-llaveros-dos img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-llaveros-dos a {
-        font-size: 13px;
-    }
 
     .galeria-figuras h3 {
         font-size: 17px;
         padding: 10px;
     }
 
-    .galeria .galeria-figuras-uno img {
-        width: 250px;
-        height: 250px;
-    }
 
-    .galeria .galeria-figuras-uno a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-figuras-dos img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-figuras-dos a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-figuras-tres img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-figuras-tres a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-figuras-cuatro img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-figuras-cuatro a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-figuras-cinco img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-figuras-cinco a {
-        font-size: 13px;
-    }
-
-    .galeria .galeria-figuras-seis img {
-        width: 250px;
-        height: 250px;
-    }
-
-    .galeria .galeria-figuras-seis a {
-        font-size: 13px;
-    }
-
-    /*-----Proceso-----*/
+    /*-----Elaboracion-----*/
 
     .grid-proceso {
         margin-top: 15px;
@@ -1234,15 +1099,15 @@ footer div .fb-logo:hover {
     }
 
     main .productos .productos-macetas img {
-        width: 450px;
+        width: 400px;
     }
 
     main .productos .productos-llaveros img {
-        width: 450px;
+        width: 400px;
     }
 
     main .productos .productos-figuras img {
-        width: 450px;
+        width: 400px;
     }
 
     main .productos .productos-macetas a {
@@ -1268,61 +1133,19 @@ footer div .fb-logo:hover {
         font-size: 15px;
     }
 
-    /*-----Elaboracion----*/
-    
-    .grid-proceso p{
-        font-size: 13px;
-    }
-
 
     /*-----Servicios----*/
 
-    .servicios h3 {
+    .servicios section h3{
         font-size: 17px;
         padding: 10px;
     }
 
-    .servicios p {
+    .servicios section p{
         font-size: 13px;
     }
 
-    .modelado-3d h3 {
-        font-size: 17px;
-        padding: 10px;
-    }
-
-    .modelado-3d p {
-        font-size: 13px;
-    }
-
-    .impresion-3d h3 {
-        font-size: 17px;
-        padding: 10px;
-    }
-
-    .impresion-3d p {
-        font-size: 13px;
-    }
-
-    .pintado h3 {
-        font-size: 17px;
-        padding: 10px;
-    }
-
-    .pintado p {
-        font-size: 13px;
-    }
-
-    .reparacion h3 {
-        font-size: 17px;
-        padding: 10px;
-    }
-
-    .reparacion p {
-        font-size: 13px;
-    }
 }
-
 
 
 @media screen and (max-width:500px) {
@@ -1337,41 +1160,26 @@ footer div .fb-logo:hover {
 
     main .productos .productos-macetas img {
         width: 320px;
-        height: 100%;
+        height: 340px;
     }
 
     main .productos .productos-llaveros img {
         width: 320px;
-        height: 100%;
+        height: 340px;
     }
 
     main .productos .productos-figuras img {
         width: 320px;
-        height: 100%;
+        height: 340px;
     }
 
     /*----Servicios----*/
 
-    .modelado-3d img {
+    .servicios section img{
         height: 200px;
     }
 
-    .impresion-3d img {
-        height: 200px;
-    }
-
-    .pintado img {
-        height: 200px;
-    }
-
-    .reparacion img {
-        height: 200px;
-    }
 }
-
-
-
-
 
 
 @media screen and (max-width:420px) {
@@ -1418,22 +1226,6 @@ footer div .fb-logo:hover {
     }
 
     .contacto-parrafo p {
-        font-size: 15px;
-    }
-
-    .nombre {
-        font-size: 15px;
-    }
-
-    .apellido {
-        font-size: 15px;
-    }
-
-    .email {
-        font-size: 15px;
-    }
-
-    .telefono {
         font-size: 15px;
     }
 
