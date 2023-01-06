@@ -61,8 +61,14 @@ header nav ul .index-button:hover {
     transform: scale(1.1);
 }
 
+
 header nav ul .elaboracion-button {
     transition: 1s;
+}
+
+header nav ul .elaboracion-button:active{
+    background-color: white;
+    transition: 1ms;
 }
 
 header nav ul .elaboracion-button:hover {
@@ -73,6 +79,11 @@ header nav ul .galeria-button {
     transition: 1s;
 }
 
+header nav ul .galeria-button:active{
+    background-color: white;
+    transition: 1ms;
+}
+
 header nav ul .galeria-button:hover {
     transform: scale(1.1);
 }
@@ -81,12 +92,22 @@ header nav ul .nosotros-button {
     transition: 1s;
 }
 
+header nav ul .nosotros-button:active{
+    background-color: white;
+    transition: 1ms;
+}
+
 header nav ul .nosotros-button:hover {
     transform: scale(1.1);
 }
 
 header nav ul .contacto-button {
     transition: 1s;
+}
+
+header nav ul .contacto-button:active{
+    background-color: white;
+    transition: 1ms;
 }
 
 header nav ul .contacto-button:hover {
@@ -705,6 +726,7 @@ main .proceso div img {
     height: 400px;
 }
 
+
 /*-----Contacto-----*/
 
 .contacto-h h2 {
@@ -1041,7 +1063,6 @@ footer div .fb-logo:hover {
         font-size: 17px;
         padding: 10px;
     }
-
 
     /*-----Elaboracion-----*/
 

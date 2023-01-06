@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300&family=Rubik+Distressed&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+/*---HEADER---*/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 130px;
+  background-color: rgba(0, 0, 0, 0.897);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px; }
+    header nav ul div {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      header nav ul div .elaboracion-button {
+        margin: 15px;
+        transition: 1s; }
+        header nav ul div .elaboracion-button:hover {
+          transform: scale(1.1); }
+        header nav ul div .elaboracion-button:active {
+          background-color: white;
+          transition: 1ms; }
+        header nav ul div .elaboracion-button a {
+          text-decoration: none;
+          color: white;
+          border: 1px solid white;
+          padding: 8px;
+          font-size: 15px;
+          font-family: 'Anek Devanagari', sans-serif; }
+          header nav ul div .elaboracion-button a:hover {
+            color: blue; }
+      header nav ul div .galeria-button {
+        margin: 15px;
+        transition: 1s; }
+        header nav ul div .galeria-button:hover {
+          transform: scale(1.1); }
+        header nav ul div .galeria-button:active {
+          background-color: white;
+          transition: 1ms; }
+        header nav ul div .galeria-button a {
+          text-decoration: none;
+          color: white;
+          border: 1px solid white;
+          padding: 8px;
+          font-size: 15px;
+          font-family: 'Anek Devanagari', sans-serif; }
+          header nav ul div .galeria-button a:hover {
+            color: blue; }
+    header nav ul .index-button {
+      transition: 1s; }
+      header nav ul .index-button:hover {
+        transform: scale(1.1); }
+      header nav ul .index-button a img {
+        width: 100px;
+        height: 100px;
+        margin: 15px; }
+    header nav ul div {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; }
+      header nav ul div .nosotros-button {
+        margin: 15px;
+        transition: 1s; }
+        header nav ul div .nosotros-button:hover {
+          transform: scale(1.1); }
+        header nav ul div .nosotros-button:active {
+          background-color: white;
+          transition: 1ms; }
+        header nav ul div .nosotros-button a {
+          text-decoration: none;
+          color: white;
+          border: 1px solid white;
+          padding: 8px;
+          font-size: 15px;
+          font-family: 'Anek Devanagari', sans-serif; }
+          header nav ul div .nosotros-button a:hover {
+            color: blue; }
+      header nav ul div .contacto-button {
+        margin: 15px;
+        transition: 1s; }
+        header nav ul div .contacto-button:hover {
+          transform: scale(1.1); }
+        header nav ul div .contacto-button:active {
+          background-color: white;
+          transition: 1ms; }
+        header nav ul div .contacto-button a {
+          text-decoration: none;
+          color: white;
+          border: 1px solid white;
+          padding: 8px;
+          font-size: 15px;
+          font-family: 'Anek Devanagari', sans-serif; }
+          header nav ul div .contacto-button a:hover {
+            color: blue; }
+
+/*---INDEX---*/
+main
+.hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  main
+.hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; }
+    main
+.hero .hero-text h2 {
+      color: black;
+      font-size: 25px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold; }
+    main
+.hero .hero-text p {
+      width: 100%;
+      color: black;
+      font-size: 15px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center; }
+    main
+.hero .hero-text .slogan p {
+      color: black;
+      font-size: 15px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center; }
+  main
+.hero div img {
+    width: 100%;
+    height: 50vh; }
+
+.productos-titulo {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Anek Devanagari', sans-serif;
+  font-weight: bold;
+  background: black;
+  background: linear-gradient(90deg, black 0%, #9a9a9a 100%);
+  padding: 15px;
+  margin-top: 10px; }
+
+.productos {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  background-color: antiquewhite; }
+  .productos .productos-macetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 15px;
+    transition: 1s; }
+    .productos .productos-macetas:hover {
+      transform: scale(1.1);
+      box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
+    .productos .productos-macetas img {
+      width: 450px;
+      height: 45vh;
+      position: relative;
+      object-fit: cover; }
+    .productos .productos-macetas a {
+      text-decoration: none;
+      position: absolute;
+      color: black;
+      font-size: 20px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+      background-color: rgba(250, 235, 215, 0.575); }
+  .productos .productos-llaveros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 15px;
+    transition: 1s; }
+    .productos .productos-llaveros:hover {
+      transform: scale(1.1);
+      box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
+    .productos .productos-llaveros img {
+      width: 450px;
+      height: 45vh;
+      position: relative;
+      object-fit: cover; }
+    .productos .productos-llaveros a {
+      text-decoration: none;
+      position: absolute;
+      color: black;
+      font-size: 20px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+      background-color: rgba(250, 235, 215, 0.575); }
+  .productos .productos-figuras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 15px;
+    transition: 1s; }
+    .productos .productos-figuras:hover {
+      transform: scale(1.1);
+      box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
+    .productos .productos-figuras img {
+      width: 450px;
+      height: 45vh;
+      position: relative;
+      object-fit: cover; }
+    .productos .productos-figuras a {
+      text-decoration: none;
+      position: absolute;
+      color: black;
+      font-size: 20px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+      background-color: rgba(250, 235, 215, 0.575); }
+
+.proceso {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .proceso div img {
+    width: 60vh;
+    height: 40vh; }
+  .proceso .proceso-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; }
+    .proceso .proceso-text h2 {
+      color: black;
+      font-size: 25px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold; }
+    .proceso .proceso-text p {
+      width: 100%;
+      color: black;
+      text-align: center;
+      font-size: 15px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-size: 20px; }
+    .proceso .proceso-text a {
+      text-decoration: none;
+      border: 1px solid black;
+      padding: 8px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold;
+      font-size: 20px;
+      color: black;
+      background-color: rgba(250, 235, 215, 0.575);
+      transition: 1s; }
+      .proceso .proceso-text a:hover {
+        transform: scale(1.1); }
+
+/*---PROCESO---*/
+main .grid-proceso {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto; }
+  main .grid-proceso .elaboracion-impresion-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .grid-proceso .elaboracion-impresion-text h2 {
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold;
+      background: black;
+      background: linear-gradient(90deg, black 0%, #9a9a9a 100%);
+      padding: 15px;
+      margin-top: 10px; }
+    main .grid-proceso .elaboracion-impresion-text p {
+      width: 100%;
+      margin: 20px;
+      padding: 15px;
+      color: black;
+      font-size: 20px;
+      font-family: 'Anek Devanagari', sans-serif;
+      text-align: center; }
+  main .grid-proceso .video-impresion {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; }
+    main .grid-proceso .video-impresion iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  main .grid-proceso .video-pintado {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; }
+    main .grid-proceso .video-pintado iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  main .grid-proceso .elaboracion-pintado-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .grid-proceso .elaboracion-pintado-text h2 {
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold;
+      background: black;
+      background: linear-gradient(90deg, black 0%, #9a9a9a 100%);
+      padding: 15px;
+      margin-top: 10px; }
+    main .grid-proceso .elaboracion-pintado-text p {
+      width: 100%;
+      margin: 20px;
+      padding: 15px;
+      color: black;
+      font-size: 20px;
+      font-family: 'Anek Devanagari', sans-serif;
+      text-align: center; }
+
+/*---FOOTER---*/
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.897);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  footer div h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    font-weight: 400; }
+  footer div p {
+    text-align: center;
+    color: white;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 10px;
+    font-weight: 400; }
+  footer div h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    font-weight: 400; }
+  footer div a .ig-logo {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    transition: 1s; }
+    footer div a .ig-logo:hover {
+      transform: scale(1.2); }
+  footer div a .ws-logo {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    transition: 1s; }
+    footer div a .ws-logo:hover {
+      transform: scale(1.2); }
+  footer div a .fb-logo {
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+    transition: 1s; }
+    footer div a .fb-logo:hover {
+      transform: scale(1.2); }

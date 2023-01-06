@@ -1,0 +1,92 @@
+/*---PROCESO---*/
+main{
+    .grid-proceso{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        .elaboracion-impresion-text{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                width: 100%;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                font-family: 'Anek Devanagari', sans-serif;
+                font-weight: bold;
+                background: rgb(0, 0, 0);
+                background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
+                padding: 15px;
+                margin-top: 10px;
+            }
+            p{
+                width: 100%;
+                margin: 20px;
+                padding: 15px;
+                color: black;
+                font-size: 20px;
+                font-family: 'Anek Devanagari', sans-serif;
+                text-align: center;
+            }
+        }
+        .video-impresion{
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            iframe{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .video-pintado{
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            iframe{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .elaboracion-pintado-text{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h2{
+                width: 100%;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+                font-family: 'Anek Devanagari', sans-serif;
+                font-weight: bold;
+                background: rgb(0, 0, 0);
+                background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
+                padding: 15px;
+                margin-top: 10px;
+            }
+            p{
+                width: 100%;
+                margin: 20px;
+                padding: 15px;
+                color: black;
+                font-size: 20px;
+                font-family: 'Anek Devanagari', sans-serif;
+                text-align: center;
+            }
+        }
+    }
+}
