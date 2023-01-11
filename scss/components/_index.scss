@@ -13,28 +13,26 @@ main
             align-items: center;
             margin: 15px;
             h2{
-                color: black;
-                font-size: 25px;
+                color: map-get($map: $subh2, $key: text-color);
+                font-size: map-get($map: $subh2, $key: text-size);
+                text-align: map-get($map: $subh2, $key: text-ali);
                 font-family: 'Anek Devanagari', sans-serif;
-                font-weight: bold;
+
             }
             p{
                 width: 100%;
-                color: black;
-                font-size: 15px;
+                color: map-get($map: $parrafos, $key: text-color);
+                font-size: map-get($map: $parrafos, $key: text-size);
+                text-align: map-get($map: $parrafos, $key: text-ali);
                 font-family: 'Anek Devanagari', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-                text-align: center;
             }
             .slogan{
                 p{
-                    color: black;
-                    font-size: 15px;
+                    color: map-get($map: $parrafos, $key: text-color);
+                    font-size: map-get($map: $parrafos, $key: text-size);
+                    text-align: map-get($map: $parrafos, $key: text-ali);
                     font-family: 'Anek Devanagari', sans-serif;
-                    font-size: 20px;
                     font-weight: bold;
-                    text-align: center;
                 }
             }
         }
@@ -46,15 +44,7 @@ main
         }
     }
     .productos-titulo{
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        font-family: 'Anek Devanagari', sans-serif;
-        font-weight: bold;
-        background: rgb(0, 0, 0);
-        background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
-        padding: 15px;
-        margin-top: 10px;
+        @extend %pag-h2;
     }
     .productos{
         height: 100%;
@@ -66,13 +56,7 @@ main
         margin-bottom: 5px;
         background-color: antiquewhite;
         .productos-macetas{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid black;
-            margin: 15px;
-            transition: 1s;
+            @extend %ind-tarjeta;
             &:hover{
                 transform: scale(1.1);
                 box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
@@ -99,13 +83,7 @@ main
             }
         }
         .productos-llaveros{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid black;
-            margin: 15px;
-            transition: 1s;
+            @extend %ind-tarjeta;
             &:hover{
                 transform: scale(1.1);
                 box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
@@ -132,13 +110,7 @@ main
             }
         }
         .productos-figuras{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border: 1px solid black;
-            margin: 15px;
-            transition: 1s;
+            @extend %ind-tarjeta;
             &:hover{
                 transform: scale(1.1);
                 box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
@@ -184,16 +156,15 @@ main
             align-items: center;
             margin: 20px;
             h2{
-                color: black;
-                font-size: 25px;
+                color: map-get($map: $subh2, $key: text-color);
+                font-size: map-get($map: $subh2, $key: text-size);
+                text-align: map-get($map: $subh2, $key: text-ali);
                 font-family: 'Anek Devanagari', sans-serif;
-                font-weight: bold;
             }
             p{
                 width: 100%;
                 color: black;
                 text-align: center;
-                font-size: 15px;
                 font-family: 'Anek Devanagari', sans-serif;
                 font-size: 20px;
             }

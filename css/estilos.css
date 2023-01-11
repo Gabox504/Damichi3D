@@ -4,6 +4,54 @@
   padding: 0%;
   box-sizing: border-box; }
 
+/*-----Extend-----*/
+.productos-titulo, main .grid-proceso .elaboracion-impresion-text h2, main .grid-proceso .elaboracion-pintado-text h2, .galeria h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Anek Devanagari', sans-serif;
+  font-weight: bold;
+  background: black;
+  background: linear-gradient(90deg, black 0%, #9a9a9a 100%);
+  padding: 15px;
+  margin-top: 10px; }
+
+.productos .productos-macetas, .productos .productos-llaveros, .productos .productos-figuras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 15px;
+  transition: 1s; }
+
+.galeria .galeria-macetas .galeria-macetas-uno, .galeria .galeria-macetas .galeria-macetas-dos, .galeria .galeria-macetas .galeria-macetas-tres, .galeria .galeria-macetas .galeria-macetas-cuatro, .galeria .galeria-macetas .galeria-macetas-cinco, .galeria .galeria-macetas .galeria-macetas-seis, .galeria .galeria-llaveros .galeria-llaveros-uno, .galeria .galeria-llaveros .galeria-llaveros-dos, .galeria .galeria-figuras .galeria-figuras-uno, .galeria .galeria-figuras .galeria-figuras-dos, .galeria .galeria-figuras .galeria-figuras-tres, .galeria .galeria-figuras .galeria-figuras-cuatro, .galeria .galeria-figuras .galeria-figuras-cinco, .galeria .galeria-figuras .galeria-figuras-seis {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  transition: 1s; }
+
+.galeria .galeria-macetas .galeria-macetas-uno img, .galeria .galeria-macetas .galeria-macetas-dos img, .galeria .galeria-macetas .galeria-macetas-tres img, .galeria .galeria-macetas .galeria-macetas-cuatro img, .galeria .galeria-macetas .galeria-macetas-cinco img, .galeria .galeria-macetas .galeria-macetas-seis img, .galeria .galeria-llaveros .galeria-llaveros-uno img, .galeria .galeria-llaveros .galeria-llaveros-dos img, .galeria .galeria-figuras .galeria-figuras-uno img, .galeria .galeria-figuras .galeria-figuras-dos img, .galeria .galeria-figuras .galeria-figuras-tres img, .galeria .galeria-figuras .galeria-figuras-cuatro img, .galeria .galeria-figuras .galeria-figuras-cinco img, .galeria .galeria-figuras .galeria-figuras-seis img {
+  width: 320px;
+  height: 340px;
+  position: relative; }
+
+.galeria .galeria-macetas .galeria-macetas-uno a, .galeria .galeria-macetas .galeria-macetas-dos a, .galeria .galeria-macetas .galeria-macetas-tres a, .galeria .galeria-macetas .galeria-macetas-cuatro a, .galeria .galeria-macetas .galeria-macetas-cinco a, .galeria .galeria-macetas .galeria-macetas-seis a, .galeria .galeria-llaveros .galeria-llaveros-uno a, .galeria .galeria-llaveros .galeria-llaveros-dos a, .galeria .galeria-figuras .galeria-figuras-uno a, .galeria .galeria-figuras .galeria-figuras-dos a, .galeria .galeria-figuras .galeria-figuras-tres a, .galeria .galeria-figuras .galeria-figuras-cuatro a, .galeria .galeria-figuras .galeria-figuras-cinco a, .galeria .galeria-figuras .galeria-figuras-seis a {
+  text-decoration: none;
+  transition: 1s;
+  position: absolute;
+  color: black;
+  font-size: 20px;
+  font-family: 'Anek Devanagari', sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgba(250, 235, 215, 0.575); }
+
 /*---HEADER---*/
 header {
   position: sticky;
@@ -105,58 +153,38 @@ header {
             color: blue; }
 
 /*---INDEX---*/
-main
-.hero {
+main .hero {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  main
-.hero .hero-text {
+  main .hero .hero-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 15px; }
-    main
-.hero .hero-text h2 {
+    main .hero .hero-text h2 {
       color: black;
       font-size: 25px;
-      font-family: 'Anek Devanagari', sans-serif;
-      font-weight: bold; }
-    main
-.hero .hero-text p {
+      text-align: center;
+      font-family: 'Anek Devanagari', sans-serif; }
+    main .hero .hero-text p {
       width: 100%;
       color: black;
-      font-size: 15px;
-      font-family: 'Anek Devanagari', sans-serif;
       font-size: 20px;
-      font-weight: 400;
-      text-align: center; }
-    main
-.hero .hero-text .slogan p {
+      text-align: center;
+      font-family: 'Anek Devanagari', sans-serif; }
+    main .hero .hero-text .slogan p {
       color: black;
-      font-size: 15px;
-      font-family: 'Anek Devanagari', sans-serif;
       font-size: 20px;
-      font-weight: bold;
-      text-align: center; }
-  main
-.hero div img {
+      text-align: center;
+      font-family: 'Anek Devanagari', sans-serif;
+      font-weight: bold; }
+  main .hero div img {
     width: 100%;
     height: 50vh; }
-
-.productos-titulo {
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  font-family: 'Anek Devanagari', sans-serif;
-  font-weight: bold;
-  background: black;
-  background: linear-gradient(90deg, black 0%, #9a9a9a 100%);
-  padding: 15px;
-  margin-top: 10px; }
 
 .productos {
   height: 100%;
@@ -167,93 +195,69 @@ main
   flex-wrap: wrap;
   margin-bottom: 5px;
   background-color: antiquewhite; }
-  .productos .productos-macetas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .productos .productos-macetas:hover {
+    transform: scale(1.1);
+    box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
+  .productos .productos-macetas img {
+    width: 450px;
+    height: 45vh;
+    position: relative;
+    object-fit: cover; }
+  .productos .productos-macetas a {
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
     border: 1px solid black;
-    margin: 15px;
-    transition: 1s; }
-    .productos .productos-macetas:hover {
-      transform: scale(1.1);
-      box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
-      -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
-      -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
-    .productos .productos-macetas img {
-      width: 450px;
-      height: 45vh;
-      position: relative;
-      object-fit: cover; }
-    .productos .productos-macetas a {
-      text-decoration: none;
-      position: absolute;
-      color: black;
-      font-size: 20px;
-      font-family: 'Anek Devanagari', sans-serif;
-      font-weight: bold;
-      border: 1px solid black;
-      padding: 5px;
-      margin: 5px;
-      background-color: rgba(250, 235, 215, 0.575); }
-  .productos .productos-llaveros {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(250, 235, 215, 0.575); }
+  .productos .productos-llaveros:hover {
+    transform: scale(1.1);
+    box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
+  .productos .productos-llaveros img {
+    width: 450px;
+    height: 45vh;
+    position: relative;
+    object-fit: cover; }
+  .productos .productos-llaveros a {
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
     border: 1px solid black;
-    margin: 15px;
-    transition: 1s; }
-    .productos .productos-llaveros:hover {
-      transform: scale(1.1);
-      box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
-      -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
-      -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
-    .productos .productos-llaveros img {
-      width: 450px;
-      height: 45vh;
-      position: relative;
-      object-fit: cover; }
-    .productos .productos-llaveros a {
-      text-decoration: none;
-      position: absolute;
-      color: black;
-      font-size: 20px;
-      font-family: 'Anek Devanagari', sans-serif;
-      font-weight: bold;
-      border: 1px solid black;
-      padding: 5px;
-      margin: 5px;
-      background-color: rgba(250, 235, 215, 0.575); }
-  .productos .productos-figuras {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(250, 235, 215, 0.575); }
+  .productos .productos-figuras:hover {
+    transform: scale(1.1);
+    box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
+  .productos .productos-figuras img {
+    width: 450px;
+    height: 45vh;
+    position: relative;
+    object-fit: cover; }
+  .productos .productos-figuras a {
+    text-decoration: none;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
     border: 1px solid black;
-    margin: 15px;
-    transition: 1s; }
-    .productos .productos-figuras:hover {
-      transform: scale(1.1);
-      box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
-      -webkit-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
-      -moz-box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4); }
-    .productos .productos-figuras img {
-      width: 450px;
-      height: 45vh;
-      position: relative;
-      object-fit: cover; }
-    .productos .productos-figuras a {
-      text-decoration: none;
-      position: absolute;
-      color: black;
-      font-size: 20px;
-      font-family: 'Anek Devanagari', sans-serif;
-      font-weight: bold;
-      border: 1px solid black;
-      padding: 5px;
-      margin: 5px;
-      background-color: rgba(250, 235, 215, 0.575); }
+    padding: 5px;
+    margin: 5px;
+    background-color: rgba(250, 235, 215, 0.575); }
 
 .proceso {
   width: 100%;
@@ -273,13 +277,12 @@ main
     .proceso .proceso-text h2 {
       color: black;
       font-size: 25px;
-      font-family: 'Anek Devanagari', sans-serif;
-      font-weight: bold; }
+      text-align: center;
+      font-family: 'Anek Devanagari', sans-serif; }
     .proceso .proceso-text p {
       width: 100%;
       color: black;
       text-align: center;
-      font-size: 15px;
       font-family: 'Anek Devanagari', sans-serif;
       font-size: 20px; }
     .proceso .proceso-text a {
@@ -308,24 +311,13 @@ main .grid-proceso {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    main .grid-proceso .elaboracion-impresion-text h2 {
-      width: 100%;
-      text-align: center;
-      color: white;
-      font-size: 20px;
-      font-family: 'Anek Devanagari', sans-serif;
-      font-weight: bold;
-      background: black;
-      background: linear-gradient(90deg, black 0%, #9a9a9a 100%);
-      padding: 15px;
-      margin-top: 10px; }
     main .grid-proceso .elaboracion-impresion-text p {
       width: 100%;
       margin: 20px;
       padding: 15px;
+      font-family: 'Anek Devanagari', sans-serif;
       color: black;
       font-size: 20px;
-      font-family: 'Anek Devanagari', sans-serif;
       text-align: center; }
   main .grid-proceso .video-impresion {
     position: relative;
@@ -355,25 +347,68 @@ main .grid-proceso {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    main .grid-proceso .elaboracion-pintado-text h2 {
-      width: 100%;
-      text-align: center;
-      color: white;
-      font-size: 20px;
-      font-family: 'Anek Devanagari', sans-serif;
-      font-weight: bold;
-      background: black;
-      background: linear-gradient(90deg, black 0%, #9a9a9a 100%);
-      padding: 15px;
-      margin-top: 10px; }
     main .grid-proceso .elaboracion-pintado-text p {
       width: 100%;
       margin: 20px;
       padding: 15px;
+      font-family: 'Anek Devanagari', sans-serif;
       color: black;
       font-size: 20px;
-      font-family: 'Anek Devanagari', sans-serif;
       text-align: center; }
+
+/*----Galeria----*/
+.galeria {
+  width: 100%;
+  height: 100%; }
+  .galeria .galeria-macetas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px; }
+    .galeria .galeria-macetas .galeria-macetas-uno a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-macetas .galeria-macetas-dos a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-macetas .galeria-macetas-tres a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-macetas .galeria-macetas-cuatro a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-macetas .galeria-macetas-cinco a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-macetas .galeria-macetas-seis a:hover {
+      transform: scale(1.1); }
+  .galeria .galeria-llaveros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px; }
+    .galeria .galeria-llaveros .galeria-llaveros-uno a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-llaveros .galeria-llaveros-dos a:hover {
+      transform: scale(1.1); }
+  .galeria .galeria-figuras {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px; }
+    .galeria .galeria-figuras .galeria-figuras-uno a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-figuras .galeria-figuras-dos a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-figuras .galeria-figuras-tres a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-figuras .galeria-figuras-cuatro a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-figuras .galeria-figuras-cinco a:hover {
+      transform: scale(1.1); }
+    .galeria .galeria-figuras .galeria-figuras-seis a:hover {
+      transform: scale(1.1); }
 
 /*---FOOTER---*/
 footer {

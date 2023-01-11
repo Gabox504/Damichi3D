@@ -1,0 +1,200 @@
+/*----Galeria----*/
+.galeria{
+    width: 100%;
+    height: 100%;
+    h2{
+        @extend %pag-h2;
+    }
+    .galeria-macetas{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 15px;
+        .galeria-macetas-uno{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-macetas-dos{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-macetas-tres{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-macetas-cuatro{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-macetas-cinco{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-macetas-seis{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .galeria-llaveros{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 15px;
+        .galeria-llaveros-uno{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-llaveros-dos{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .galeria-figuras{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 15px;
+        .galeria-figuras-uno{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-figuras-dos{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-figuras-tres{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-figuras-cuatro{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-figuras-cinco{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+                @extend %enlaces;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .galeria-figuras-seis{
+            @extend %gal-tarjeta;
+            img{
+                @extend %gal-img;
+            }
+            a{
+            @extend %enlaces;
+            &:hover{
+                transform: scale(1.1);
+            }
+            }
+        }
+    }
+}
