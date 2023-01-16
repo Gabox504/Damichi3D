@@ -20,6 +20,18 @@ $subh2:(
 
 
 /*-----Extend-----*/
+%pag-h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-weight: bold;
+    background: rgb(200,194,194);
+    background: linear-gradient(90deg, rgba(200,194,194,1) 0%, rgba(52,52,52,1) 100%);
+    padding: 15px;
+    margin-top: 10px;
+}
+
 %pag-h2{
     width: 100%;
     text-align: center;
@@ -30,7 +42,7 @@ $subh2:(
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(154, 154, 154, 1) 100%);
     padding: 15px;
-    margin-top: 10px;
+
 }
 
 %ind-tarjeta {
@@ -73,3 +85,30 @@ $subh2:(
     background-color: rgba(250, 235, 215, 0.575)
 }
 
+%parrafos{
+    width: 100%;
+    color: black;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+%formulario{
+    width: 300px;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+/*----mixin----*/
+@mixin enlaces ($deco, $trans, $posicion, $col, $size, $font-f, $font-w, $bord, $padd, $mar, $bg-col){
+    text-decoration: $deco;
+    transition: $trans;
+    position: $posicion;
+    color: $col;
+    font-size: $size;
+    font-family: $font-f;
+    font-weight: $font-w;
+    border: $bord;
+    padding: $padd;
+    margin: $mar;
+    background-color: $bg-col;
+}

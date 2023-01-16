@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Servicios</title>
 </head>
 
@@ -32,53 +32,91 @@
         </nav>
     </header>
     <main>
-        <div class="servicios container-fluid">
-            <section class="modelado-3d row">
-                <div class="col-lg-8 col-md-8 col-sm-12 p-0 m-0">
-                    <h3>Modelado 3D</h3>
+        <h1>Nuestros Servicios</h1>
+        <section class="servicios-intro">
+            <p>Te contamos un poco acerca de los servicios que ofrecemos!</p>
+            <div class="enlace-serv">
+                <a href="#model">Modelado</a>
+                <a href="#print">Impresión</a>
+                <a href="#paint">Pintado</a>
+                <a href="#rep">Reparación</a>
+            </div>
+            <div class="serv-carru">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2500">
+                            <img src="../img/modelado-carru.jpg" class="d-block w-100" alt="Modelado Carru">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="../img/impresion-carru.jpg" class="d-block w-100" alt="Impresion Carru">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="../img/pintado-carru.jpg" class="d-block w-100" alt="Pintado Carru">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="../img/reparacion-carru.jpg" class="d-block w-100" alt="Reparacion Carru">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="servicios container-fluid">
+            <div id="model" class="modelado-3d row">
+                <div class="model-text col-lg-8 col-md-8 col-sm-12">
+                    <h2>Modelado 3D</h2>
                     <p>Creamos de forma tridimensional y perspectiva, a tus ideas. El modelado 3d es un proceso que
                         permite llevar a cabo la representación tridimensional de un objeto o grupo de objetos en un
                         espacio virtual.</p>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center col-sm-12 p-0 m-0">
+                <div class="model-img col-lg-4 col-md-4 text-center col-sm-12">
                     <img src="../img/modelado.jpg" alt="Modelado">
                 </div>
-            </section>
-            <section class="impresion-3d row d-flex flex-row-reverse">
-                <div class="impresion col-lg-8 col-md-8 col-sm-12 p-0 m-0">
-                    <h3>Impresión 3D</h3>
+            </div>
+            <div id="print" class="impresion-3d row d-flex flex-row-reverse">
+                <div class="impresion-text col-lg-8 col-md-8 col-sm-12">
+                    <h2>Impresión 3D</h2>
                     <p>Ayudamos a hacer realidad las ideas, imprime lo que se te ocurra. La impresión 3D te permite
                         crear piezas sólidas partiendo de un modelo digital tridimensional diseñado. Actualmente
                         trabajamos con impresion 3D con filamento.</p>
                 </div>
-                <div class="impresion-img col-lg-4 col-md-4 text-center col-sm-12 p-0 m-0">
+                <div class="impresion-img col-lg-4 col-md-4 text-center col-sm-12">
                     <img src="../img/impresion.jfif" alt="Impresion">
                 </div>
-            </section>
-            <section class="pintado row">
-                <div class="col-lg-8 col-md-8 col-sm-12 p-0">
-                    <h3>Pintado</h3>
+            </div>
+            <div id="paint" class="pintado row">
+                <div class="pintado-text col-lg-8 col-md-8 col-sm-12">
+                    <h2>Pintado</h2>
                     <p>Haz realidad tu sueño de tener todas tus figuras favoritas pintadas y pon en nuestras manos tu
                         proyecto. Para cada proyecto ofrecemos un enfoque individual para satisfacer sus deseos e ideas.
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center col-sm-12 p-0 m-0">
+                <div class="pintado-img col-lg-4 col-md-4 text-center col-sm-12">
                     <img src="../img/pintado.jpg" alt="Pintado">
                 </div>
-            </section>
-            <section class="reparacion row d-flex flex-row-reverse">
-                <div class="col-lg-8 col-md-8 col-sm-12 p-0">
-                    <h3>Mantenimiento y Reparacion</h3>
+            </div>
+            <div id="rep" class="reparacion row d-flex flex-row-reverse">
+                <div class="reparacion-text col-lg-8 col-md-8 col-sm-12">
+                    <h2>Mantenimiento y Reparacion</h2>
                     <p>Si necesitas reparar tu impresora 3D, mejorarla, o actualizarla, para adaptarla a tus
                         necesidades. Ofrecemos servicio técnico de impresoras 3D, efectuando reparaciones y cambio de
                         repuestos.
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center col-sm-12 p-0 m-0">
+                <div class="reparacion-img col-lg-4 col-md-4 text-center col-sm-12">
                     <img src="../img/reparacion.jpg" alt="Reparacion">
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div>

@@ -1,5 +1,8 @@
 /*---PROCESO---*/
 main{
+    h1{
+        @extend %pag-h1;
+    }
     .grid-proceso{
         width: 100%;
         height: 100%;

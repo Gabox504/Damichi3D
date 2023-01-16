@@ -1,0 +1,750 @@
+/*----Media Query----*/
+@media screen and(max-width:1310px){
+    /*---Proceso---*/
+    main{
+        .grid-proceso{
+            .elaboracion-impresion-text{
+                p{
+                    font-size: 17px;
+                }
+            }
+            .elaboracion-pintado-text{
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width:1090px){
+    /*---Index---*/
+    main{
+        .hero{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .productos-titulo{
+            font-size: 20px;
+        }
+        .productos{
+            display: flex;
+            flex-direction: column;
+        }
+        .proceso{
+            flex-direction: column;
+            .proceso-text{
+                a{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+        /*---Proceso---*/
+        main{
+            .grid-proceso{
+                .elaboracion-impresion-text{
+                    p{
+                        font-size: 15px;
+                        margin: 0;
+                    }
+                }
+                .elaboracion-pintado-text{
+                    p{
+                        font-size: 15px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+}
+    /*---Servicios---*/
+    main{
+        .servicios{
+            .modelado-3d{
+                .model-text{
+                    p{
+                        margin-top: 25px;
+                    }
+                }
+                .model-img{
+                    img{
+                        height: 350px;
+                    }
+                }
+            }
+            .impresion-3d{
+                .impresion-text{
+                    p{
+                        margin-top: 25px;
+                    }
+                }
+                .impresion-img{
+                    img{
+                        height: 350px;
+                    }
+                }       
+            }
+            .pintado{
+                .pintado-text{
+                    p{
+                        margin-top: 25px;
+                    }
+                }
+                .pintado-img{
+                    img{
+                        height: 350px;
+                    }
+                }       
+            }
+            .reparacion{
+                .reparacion-text{
+                    p{
+                        margin-top: 25px;
+                    }
+                }
+                .reparacion-img{
+                    img{
+                        height: 350px;
+                    }
+                }       
+            }
+        }
+    }
+@media screen and(max-width:990px){
+    /*---Proceso---*/
+    main{
+        h1{
+            font-size: 25px;
+        }
+        .grid-proceso{
+            .elaboracion-impresion-text{
+                h2{
+                    font-size: 17px;
+                }
+            }
+            .elaboracion-pintado-text{
+                h2{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width:767px){
+    /*---Servicios---*/
+    main{
+        .servicios{
+            .modelado-3d{
+                .model-img{
+                    img{
+                        width: 50%;
+                        height: 300px;
+                    }
+                }
+            }
+            .impresion-3d{
+                .impresion-img{
+                    img{
+                        width: 50%;
+                        height: 300px;
+                    }
+                }       
+            }
+            .pintado{
+                .pintado-img{
+                    img{
+                        width: 50%;
+                        height: 300px;
+                    }
+                }       
+            }
+            .reparacion{
+                .reparacion-img{
+                    img{
+                        width: 50%;
+                        height: 300px;
+                    }
+                }       
+            }
+        }
+    }
+}
+@media screen and(max-width:755px){
+    /*---Galeria---*/
+    main{
+        .gal-intro{
+            p{
+                font-size: 17px;
+            }
+            .gal-carru{
+                width: 500px;
+            }
+            .enlace-gal{
+                a{
+                    font-size: 17px;
+                }
+            }
+        }
+        .galeria{
+            h2{
+                font-size: 17px;
+                padding: 10px;
+            }
+            .galeria-macetas{
+                .galeria-macetas-uno{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-macetas-dos{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-macetas-tres{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-macetas-cuatro{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-macetas-cinco{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-macetas-seis{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+            }
+            .galeria-llaveros{
+                .galeria-llaveros-uno{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-llaveros-dos{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+            }
+            .galeria-figuras{
+                .galeria-figuras-uno{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-figuras-dos{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-figuras-tres{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-figuras-cuatro{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-figuras-cinco{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+                .galeria-figuras-seis{
+                    img{
+                        width: 250px;
+                        height: 290px;
+                    }
+                    a{
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }   
+    /*---Proceso---*/
+    main{
+        .grid-proceso{
+            margin-top: 15px;
+            display: grid;
+            gap: 20px;
+            grid-template-areas:
+                "impresion-txt"
+                "video-impresion"
+                "pintado-txt"
+                "video-pintado";
+            .elaboracion-impresion-text{
+                grid-area: impresion-txt;
+                grid-column: span 2;
+            }
+            .video-impresion{
+                grid-area: video-impresion;
+                grid-column: span 2;
+            }
+            .elaboracion-pintado-text{
+                grid-area: pintado-txt;
+                grid-column: span 2;
+            }
+            .video-pintado{
+                grid-area: video-pintado;
+                grid-column: span 2;
+            }
+        }
+    }
+    /*---Servicios---*/
+    main{
+        .servicios-intro{
+            p{
+                font-size: 17px;
+            }
+            .serv-carru{
+                width: 500px;
+            }
+            .enlace-serv{
+                a{
+                    font-size: 17px;
+                }
+            }
+        }
+        .servicios{
+            .modelado-3d{
+                .model-text{
+                    h2{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 17px;
+                    }
+                }
+            }
+            .impresion-3d{
+                .impresion-text{
+                    h2{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 17px;
+                    }
+                }      
+            }
+                .pintado{
+                    .pintado-text{
+                        h2{
+                            font-size: 20px;
+                        }
+                        p{
+                            font-size: 17px;
+                        }
+                    }      
+            }
+            .reparacion{
+                .reparacion-text{
+                    h2{
+                        font-size: 20px;
+                    }
+                    p{
+                        font-size: 17px;
+                    }
+                }      
+            }
+        }
+    } 
+}
+@media screen and(max-width:585px){
+    /*---Header---*/
+    header{
+        nav{
+            ul{
+                div{
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    /*---Index---*/
+    main{
+        h1{
+            font-size: 22px;
+        }
+        .hero{
+            .hero-text{
+                h2{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 17px;
+                }
+                .slogan{
+                    p{
+                        font-size: 17px;
+                    }
+                }
+            }
+            div{
+                img{
+                    width: 100%;
+                    height: 70%;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .productos-titulo{
+            font-size: 20px;
+        }
+        .productos{
+            .productos-macetas{
+                img{
+                    width: 400px;
+                }
+                a{
+                    font-size: 15px;
+                }
+            }
+            .productos-llaveros{
+                img{
+                    width: 400px;
+                }
+                a{
+                    font-size: 15px;
+                }
+            }
+            .productos-figuras{
+                img{
+                    width: 400px;
+                }
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+        .proceso{
+            div{
+                img{
+                    width: 100%;
+                    height: 70%;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            .proceso-text{
+                h2{
+                    font-size: 20px;
+                }
+                a{
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    /*---Galeria---*/
+    main{
+        .gal-intro{
+            p{
+                font-size: 15px;
+            }
+            .gal-carru{
+                width: 340px;
+            }
+            .enlace-gal{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+    }        
+    /*---Servicios---*/
+    main{
+        .servicios-intro{
+            p{
+                font-size: 15px;
+            }
+            .serv-carru{
+                width: 340px;
+            }
+            .enlace-serv{
+                a{
+                    font-size: 15px;
+                }
+            }
+        }
+        .servicios{
+            .modelado-3d{
+                .model-img{
+                    img{
+                        width: 320px;
+                        height: 250px;
+                    }
+                }
+            }
+            .impresion-3d{
+                .impresion-img{
+                    img{
+                        width: 320px;
+                        height: 250px;
+                    }
+                }       
+            }
+                .pintado{
+                .pintado-img{
+                    img{
+                        width: 320px;
+                        height: 250px;
+                    }
+                }       
+            }
+            .reparacion{
+                .reparacion-img{
+                    img{
+                        width: 320px;
+                        height: 250px;
+                    }
+                }       
+            }
+        }
+    }
+}
+@media screen and(max-width:500px){
+    /*---Header---*/
+    header{
+        padding-right: 40px;
+    }
+    /*---Index---*/
+    main{
+        .productos{
+            .productos-macetas{
+                img{
+                    width: 320px;
+                    height: 340px;
+                }
+            }
+            .productos-llaveros{
+                img{
+                    width: 320px;
+                    height: 340px;
+                }
+            }
+            .productos-figuras{
+                img{
+                    width: 320px;
+                    height: 340px;
+                }
+            }
+        }
+    }
+}
+@media screen and(max-width:420px){
+    /*---Header---*/
+    header{
+        nav{
+            ul{
+                div{
+                    .elaboracion-button{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                    .galeria-button{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                    .nosotros-button{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                    .contacto-button{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*---Index---*/
+    main{
+        .hero{
+            .hero-text{
+                p{
+                    font-size: 14px;
+                    margin: 10px;
+                }
+            }
+        }
+        .proceso{
+            .proceso-text{
+                p{
+                    font-size: 14px;
+                    margin: 10px;
+                }
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /*---Proceso---*/
+    main{
+        .grid-proceso{
+            .elaboracion-impresion-text{
+                p{
+                    font-size: 14px;
+                }
+            }
+            .elaboracion-pintado-text{
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /*---Galeria---*/
+    main{
+        .gal-intro{
+            p{
+                font-size: 14px;
+            }
+            .enlace-gal{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /*---Servicios---*/
+    main{
+        .servicios-intro{
+            p{
+                font-size: 14px;
+            }
+            .enlace-serv{
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+    } 
+    /*---Contacto---*/
+    main{
+        h1{
+            font-size: 20px;
+        }
+        .contact{
+            .contacto-cont{
+                .contacto-intro{
+                    .contacto-icono{
+                        img{
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+                    .contacto-info{
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .contacto-text{
+                    .contacto-parrafo{
+                        p{
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*---Footer---*/
+    footer{
+        div{
+            h2{
+                font-size: 15px;
+            }
+            h3{
+                font-size: 15px;
+            }
+            a{
+                .ig-logo{
+                    width: 35px;
+                    height: 35px;
+                }
+                .ws-logo{
+                    width: 35px;
+                    height: 35px;
+                }
+                .fb-logo{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}

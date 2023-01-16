@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Contacto</title>
 </head>
 
@@ -32,65 +32,61 @@
         </nav>
     </header>
     <main>
-        <div class="container-fluid">
-            <section>
-                <div class="contacto-h">
-                    <h2>Contactanos</h2>
+        <h1>Contactanos</h1>
+        <section class="contact container-fluid">
+            <div class="contacto-cont container">
+                <div class="contacto-intro row">
+                    <div class="contacto-icono my-3 col-lg-5 col-md-5 col-sm-5 col-5">
+                        <img src="../img/mail-black.png" alt="Icono Mail">
+                        <img src="../img/tl-black.png" alt="Icono Telefono">
+                    </div>
+                    <div class="contacto-info my-3 col-lg-7 col-md-7 col-sm-7 col-7">
+                        <p>bycris26@gmail.com</p>
+                        <p>+54 11 6367-6293</p>
+                    </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="contacto-icono my-3 col-lg-5 col-md-5 col-sm-5 col-5">
-                            <img src="../img/mail-black.png" alt="Icono Mail">
-                            <img src="../img/tl-black.png" alt="Icono Telefono">
+                <div class="contacto-text row">
+                    <div class="contacto-parrafo text-center col-lg-6 col-md-6 col-12 mb-3">
+                        <p>¿Quieres conocer más acerca de nuestros servicios? No dudes en contactarnos.</p>
+                        <div class="slogan-contacto">
+                            <p>Iniciemos un proyecto juntos.</p>
                         </div>
-                        <div class="contacto my-3 col-lg-7 col-md-7 col-sm-7 col-7">
-                            <p>bycris26@gmail.com</p>
-                            <p>+54 11 6367-6293</p>
+                        <div class="contacto-img">
+                            <img src="../img/contactanos.png" class="img-fluid" alt="Contactanos">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="contacto-parrafo text-center col-lg-6 col-md-6 col-12 mb-3">
-                            <p>¿Quieres conocer más acerca de nuestros servicios? No dudes en contactarnos.</p>
-                            <div class="slogan-contacto">
-                                <p>Iniciemos un proyecto juntos.</p>
-                            </div>
-                                <div class="contacto-parrafo-img">
-                                    <img src="../img/contactanos.png" class="img-fluid" alt="Contactanos">
-                                </div>
+                    <div class="formulario d-flex align-items-center col-lg-6 col-md-6 col-12">
+                        <div class="form-floating mb-3 nombre">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Nombre">
+                            <label for="floatingInput">Nombre</label>
                         </div>
-                        <div class="formulario d-flex align-items-center col-lg-6 col-md-6 col-12">
-                            <div class="form-floating mb-3 nombre">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="Nombre">
-                                <label for="floatingInput">Nombre</label>
-                            </div>
-                            <div class="form-floating mb-3 apellido">
-                                <input type="password" class="form-control" id="floatingPassword" placeholder="Apellido">
-                                <label for="floatingPassword">Apellido</label>
-                            </div>
-                            <div class="form-floating mb-3 email">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                                <label for="floatingInput">Email</label>
-                            </div>
-                            <div class="form-floating telefono">
-                                <input type="password" class="form-control" id="floatingPassword" placeholder="Telefono">
-                                <label for="floatingPassword">Telefono</label>
+                        <div class="form-floating mb-3 apellido">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Apellido">
+                            <label for="floatingPassword">Apellido</label>
+                        </div>
+                        <div class="form-floating mb-3 email">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating telefono">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Telefono">
+                            <label for="floatingPassword">Telefono</label>
+                        </div>
+                        <div>
+                            <div class="form-floating my-3 textbox">
+                                <textarea class="form-control" placeholder="En que te podemos ayudar?"
+                                    id="floatingTextarea2" style="height: 150px"></textarea>
+                                <label for="floatingPassword">En que te podemos ayudar?</label>
                             </div>
                             <div>
-                                <div class="form-floating my-3 textbox">
-                                    <textarea class="form-control" placeholder="En que te podemos ayudar?"
-                                        id="floatingTextarea2" style="height: 150px"></textarea>
-                                    <label for="floatingPassword">En que te podemos ayudar?</label>
-                                </div>
-                                <div>
-                                    <button type="submit" class="btn btn-secondary mb-3">Enviar</button>
-                                    <button type="submit" class="btn btn-secondary mb-3">Restablecer</button>
-                                </div>
+                                <button type="submit" class="btn btn-secondary mb-3">Enviar</button>
+                                <button type="submit" class="btn btn-secondary mb-3">Restablecer</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
 
 
     </main>

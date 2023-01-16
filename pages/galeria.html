@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Galeria</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -18,7 +21,8 @@
                     <li class="galeria-button"><a href="./galeria.html">Galeria</a></li>
                 </div>
                 <div class="index-button">
-                    <a href="../index.html"><img src="../img/logo.png" alt="logo-damichi" class="animate__animated animate__fadeIn "></a></li>
+                    <a href="../index.html"><img src="../img/logo.png" alt="logo-damichi"
+                            class="animate__animated animate__fadeIn "></a></li>
                 </div>
                 <div class="animate__animated animate__fadeIn">
                     <li class="nosotros-button"><a href="./servicios.html">Servicios</a></li>
@@ -28,9 +32,46 @@
         </nav>
     </header>
     <main>
-        <div class="galeria">
+        <h1>Nuestras Impresiones 3D</h1>
+        <section class="gal-intro">
+            <p>En esta sección prodrás encontrar muchos de nuestros trabajos realizados, el próximo puede ser el tuyo! </p>
+            <div class="enlace-gal">
+                <a href="#macetas">Macetas</a>
+                <a href="#llaveros">Llaveros</a>
+                <a href="#figuras">Figuras</a>
+            </div>
+            <div class="gal-carru">
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2500">
+                            <img src="../img/eevee-evo.jpg" class="d-block w-100" alt="imagen eevee evo">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="../img/harry-mates.jpg" class="d-block w-100" alt="harry mates">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="../img/love.jpg" class="d-block w-100" alt="maceta love">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2500">
+                            <img src="../img/mates.jpg" class="d-block w-100" alt="mates">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="galeria">
             <h2>Macetas</h2>
-            <section class="galeria-macetas">
+            <div id="macetas" class="galeria-macetas">
                 <div class="galeria-macetas-uno">
                     <img src="../img/maceta1.jpeg" alt="maceta1">
                     <a href="../pages/contacto.html">Info</a>
@@ -53,48 +94,49 @@
                 </div>
                 <div class="galeria-macetas-seis">
                     <img src="../img/maceta-logo.jpeg" alt="maceta logo">
-                    <a href="../pages/contacto.html">Info</a>        
+                    <a href="../pages/contacto.html">Info</a>
                 </div>
+            </div>
+            <section>
+                <h2>Llaveros</h2>
+                <div id="llaveros" class="galeria-llaveros">
+                    <div class="galeria-llaveros-uno">
+                        <img src="../img/llaveros-logo.jpeg" alt="Llaveros">
+                        <a href="../pages/contacto.html">Info</a>
+                    </div>
+                    <div class="galeria-llaveros-dos">
+                        <img src="../img/llavero2022.jpeg" alt="Llaveros">
+                        <a href="../pages/contacto.html">Info</a>
+                    </div>
             </section>
-            <h2>Llaveros</h2>
-            <section class="galeria-llaveros">
-                <div class="galeria-llaveros-uno">
-                    <img src="../img/llaveros-logo.jpeg" alt="Llaveros">
-                    <a href="../pages/contacto.html">Info</a>
-                </div>
-                <div class="galeria-llaveros-dos">
-                    <img src="../img/llavero2022.jpeg" alt="Llaveros">
-                    <a href="../pages/contacto.html">Info</a>
-                </div>
+            <section>
+                <h2>Figuras</h2>
+                <div  id="figuras" class="galeria-figuras">
+                    <div class="galeria-figuras-uno">
+                        <img src="../img/luffy.PNG" alt="Luffy">
+                        <a href="../pages/contacto.html">Info</a>
+                    </div>
+                    <div class="galeria-figuras-dos">
+                        <img src="../img/ichigo-hollow.PNG" alt="Ichigo Hollow">
+                        <a href="../pages/contacto.html">Info</a>
+                    </div>
+                    <div class="galeria-figuras-tres">
+                        <img src="../img/sauron.PNG" alt="Sauron">
+                        <a href="../pages/contacto.html">Info</a>
+                    </div>
+                    <div class="galeria-figuras-cuatro">
+                        <img src="../img/pokemon.jpeg" alt="Pokemon">
+                        <a href="../pages/contacto.html">Info</a>
+                    </div>
+                    <div class="galeria-figuras-cinco">
+                        <img src="../img/figuras-logo.PNG" alt="Pokemon2">
+                        <a href="../pages/contacto.html">Info</a>
+                    </div>
+                    <div class="galeria-figuras-seis">
+                        <img src="../img/funko-wanda.jpeg" alt="Funko Wanda">
+                        <a href="../pages/contacto.html">Info</a>
+                    </div>
             </section>
-            <h2>Figuras</h2>
-            <section class="galeria-figuras">
-                <div class="galeria-figuras-uno">
-                    <img src="../img/luffy.PNG" alt="Luffy">
-                    <a href="../pages/contacto.html">Info</a>
-                </div>
-                <div class="galeria-figuras-dos">
-                    <img src="../img/ichigo-hollow.PNG" alt="Ichigo Hollow">
-                    <a href="../pages/contacto.html">Info</a>
-                </div>
-                <div class="galeria-figuras-tres">
-                    <img src="../img/sauron.PNG" alt="Sauron">
-                    <a href="../pages/contacto.html">Info</a>
-                </div>
-                <div class="galeria-figuras-cuatro">
-                    <img src="../img/pokemon.jpeg" alt="Pokemon">
-                    <a href="../pages/contacto.html">Info</a>
-                </div>
-                <div class="galeria-figuras-cinco">
-                    <img src="../img/figuras-logo.PNG" alt="Pokemon2">
-                    <a href="../pages/contacto.html">Info</a>
-                </div>
-                <div class="galeria-figuras-seis">
-                    <img src="../img/funko-wanda.jpeg" alt="Funko Wanda">
-                    <a href="../pages/contacto.html">Info</a>
-                </div>
-            </section>
-        </div>       
     </main>
     <footer>
         <div>
@@ -104,14 +146,17 @@
         <div>
             <h3>Redes Sociales</h3>
             <a href="https://www.instagram.com/damichi3d/?hl=es" target="_blank"><img src="../img/instagram.png"
-                alt="Icono de Instagram" class="ig-logo"></a>
-            <a href="https://wa.me/541163676293" target="_blank"><img src="../img/whatsapp.png"
-                alt="Icono de whatsapp" class="ws-logo"></a>
+                    alt="Icono de Instagram" class="ig-logo"></a>
+            <a href="https://wa.me/541163676293" target="_blank"><img src="../img/whatsapp.png" alt="Icono de whatsapp"
+                    class="ws-logo"></a>
             <a href="https://www.facebook.com/people/Da-michi-3D/100066840335173/" target="_blank"><img
-                src="../img/facebook.png" class="fb-logo" alt="Icono de facebook"></a>
+                    src="../img/facebook.png" class="fb-logo" alt="Icono de facebook"></a>
         </div>
 
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

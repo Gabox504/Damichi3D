@@ -1,0 +1,155 @@
+/*----Servicios----*/
+main{
+    h1{
+        @extend %pag-h1;
+    }
+    .servicios-intro{
+        p{
+            @extend %parrafos;
+        }
+        .enlace-serv{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-bottom: 10px;
+            a{
+                @include enlaces (none, 1s, none, black, 20px, 'Anek Devanagari' sans-serif, bold, 1px solid black, 5px, 5px, rgba(250, 235, 215, 0.575));
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .serv-carru{
+            width: 700px;
+            margin: auto;
+        }
+    }
+    .servicios{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        .modelado-3d{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            scroll-margin-top: 130px;
+            .model-text{
+                padding-left: 0px;
+                padding-right: 0px;
+                h2{
+                    @extend %pag-h2;
+                }
+                p{
+                    width: 100%;
+                    color: black;
+                    font-size: 20px;
+                    font-family: 'Anek Devanagari', sans-serif;
+                    padding: 5px;
+                    margin: auto;
+                    margin-top: 70px;
+                    text-align: center;
+                }
+            }
+            .model-img{
+                padding-left: 0px;
+                padding-right: 0px;
+                img{
+                    width: 100%;
+                    height: 450px;
+                }
+            }
+        }
+        .impresion-3d{
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            scroll-margin-top: 130px;
+            .impresion-text{
+                padding-left: 0px;
+                padding-right: 0px;
+                h2{
+                    @extend %pag-h2;
+                }
+                p{
+                    width: 100%;
+                    color: black;
+                    font-size: 20px;
+                    font-family: 'Anek Devanagari', sans-serif;
+                    padding: 5px;
+                    margin: auto;
+                    margin-top: 70px;
+                    text-align: center;
+                }
+            }
+            .impresion-img{
+                padding-left: 0px;
+                padding-right: 0px;
+                img{
+                    width: 100%;
+                    height: 450px;
+                }
+            }
+        }
+            .pintado{
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                scroll-margin-top: 130px;
+                .pintado-text{
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    h2{
+                        @extend %pag-h2;
+                    }
+                    p{
+                        width: 100%;
+                        color: black;
+                        font-size: 20px;
+                        font-family: 'Anek Devanagari', sans-serif;
+                        padding: 5px;
+                        margin: auto;
+                        margin-top: 70px;
+                        text-align: center;
+                }
+            }
+                .pintado-img{
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    img{
+                        width: 100%;
+                        height: 450px;
+                }
+            }
+        }
+            .reparacion{
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                .reparacion-text{
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    h2{
+                        @extend %pag-h2;
+                    }
+                    p{
+                        width: 100%;
+                        color: black;
+                        font-size: 20px;
+                        font-family: 'Anek Devanagari', sans-serif;
+                        padding: 5px;
+                        margin: auto;
+                        margin-top: 70px;
+                        text-align: center;
+                }
+            }
+                .reparacion-img{
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    img{
+                        width: 100%;
+                        height: 450px;
+                }
+            }
+        }
+    }
+}

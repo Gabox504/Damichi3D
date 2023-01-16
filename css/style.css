@@ -729,7 +729,7 @@ main .proceso div img {
 
 /*-----Contacto-----*/
 
-.contacto-h h2 {
+h1 {
     text-align: center;
     color: white;
     font-size: 20px;
@@ -810,13 +810,6 @@ main .proceso div img {
     font-family: 'Anek Devanagari', sans-serif;
 }
 
-.gatos-contacto {
-    grid-area: gatos;
-    display: flex;
-    justify-content: center;
-    margin: 15px;
-    width: 100%;
-}
 
 
 /*-----Elaboracion----*/
