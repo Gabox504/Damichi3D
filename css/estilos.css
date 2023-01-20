@@ -49,7 +49,7 @@ main h1 {
   height: 340px;
   position: relative; }
 
-.galeria .galeria-macetas .galeria-macetas-uno a, .galeria .galeria-macetas .galeria-macetas-dos a, .galeria .galeria-macetas .galeria-macetas-tres a, .galeria .galeria-macetas .galeria-macetas-cuatro a, .galeria .galeria-macetas .galeria-macetas-cinco a, .galeria .galeria-macetas .galeria-macetas-seis a, .galeria .galeria-llaveros .galeria-llaveros-uno a, .galeria .galeria-llaveros .galeria-llaveros-dos a, .galeria .galeria-figuras .galeria-figuras-uno a, .galeria .galeria-figuras .galeria-figuras-dos a, .galeria .galeria-figuras .galeria-figuras-tres a, .galeria .galeria-figuras .galeria-figuras-cuatro a, .galeria .galeria-figuras .galeria-figuras-cinco a, .galeria .galeria-figuras .galeria-figuras-seis a {
+.productos .productos-macetas a, .productos .productos-llaveros a, .productos .productos-figuras a, .galeria .galeria-macetas .galeria-macetas-uno a, .galeria .galeria-macetas .galeria-macetas-dos a, .galeria .galeria-macetas .galeria-macetas-tres a, .galeria .galeria-macetas .galeria-macetas-cuatro a, .galeria .galeria-macetas .galeria-macetas-cinco a, .galeria .galeria-macetas .galeria-macetas-seis a, .galeria .galeria-llaveros .galeria-llaveros-uno a, .galeria .galeria-llaveros .galeria-llaveros-dos a, .galeria .galeria-figuras .galeria-figuras-uno a, .galeria .galeria-figuras .galeria-figuras-dos a, .galeria .galeria-figuras .galeria-figuras-tres a, .galeria .galeria-figuras .galeria-figuras-cuatro a, .galeria .galeria-figuras .galeria-figuras-cinco a, .galeria .galeria-figuras .galeria-figuras-seis a {
   text-decoration: none;
   transition: 1s;
   position: absolute;
@@ -58,6 +58,7 @@ main h1 {
   font-family: 'Anek Devanagari', sans-serif;
   font-weight: bold;
   border: 1px solid black;
+  border-radius: 10%;
   padding: 5px;
   margin: 5px;
   background-color: rgba(250, 235, 215, 0.575); }
@@ -229,17 +230,6 @@ header {
     height: 45vh;
     position: relative;
     object-fit: cover; }
-  .productos .productos-macetas a {
-    text-decoration: none;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: 'Anek Devanagari', sans-serif;
-    font-weight: bold;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgba(250, 235, 215, 0.575); }
   .productos .productos-llaveros:hover {
     transform: scale(1.1);
     box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
@@ -250,17 +240,6 @@ header {
     height: 45vh;
     position: relative;
     object-fit: cover; }
-  .productos .productos-llaveros a {
-    text-decoration: none;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: 'Anek Devanagari', sans-serif;
-    font-weight: bold;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgba(250, 235, 215, 0.575); }
   .productos .productos-figuras:hover {
     transform: scale(1.1);
     box-shadow: 14px 20px 25px 2px rgba(0, 0, 0, 0.4);
@@ -271,17 +250,6 @@ header {
     height: 45vh;
     position: relative;
     object-fit: cover; }
-  .productos .productos-figuras a {
-    text-decoration: none;
-    position: absolute;
-    color: black;
-    font-size: 20px;
-    font-family: 'Anek Devanagari', sans-serif;
-    font-weight: bold;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgba(250, 235, 215, 0.575); }
 
 .proceso {
   width: 100%;
@@ -312,14 +280,17 @@ header {
       font-size: 20px; }
     .proceso .proceso-text a {
       text-decoration: none;
-      border: 1px solid black;
-      padding: 8px;
-      font-family: 'Anek Devanagari', sans-serif;
-      font-weight: bold;
-      font-size: 20px;
+      transition: 1s;
+      position: none;
       color: black;
+      font-size: 20px;
+      font-family: "Anek Devanagari" sans-serif;
+      font-weight: bold;
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
       background-color: rgba(250, 235, 215, 0.575);
-      transition: 1s; }
+      border-radius: 10%; }
       .proceso .proceso-text a:hover {
         transform: scale(1.1); }
 
@@ -403,7 +374,8 @@ main .grid-proceso {
     border: 1px solid black;
     padding: 5px;
     margin: 5px;
-    background-color: rgba(250, 235, 215, 0.575); }
+    background-color: rgba(250, 235, 215, 0.575);
+    border-radius: 10%; }
     .gal-intro .enlace-gal a:hover {
       transform: scale(1.1); }
 
@@ -480,7 +452,8 @@ main .servicios-intro .enlace-serv {
     border: 1px solid black;
     padding: 5px;
     margin: 5px;
-    background-color: rgba(250, 235, 215, 0.575); }
+    background-color: rgba(250, 235, 215, 0.575);
+    border-radius: 10%; }
     main .servicios-intro .enlace-serv a:hover {
       transform: scale(1.1); }
 

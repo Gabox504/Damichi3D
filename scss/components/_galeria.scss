@@ -18,7 +18,7 @@ main
             align-items: center;
             margin-bottom: 10px;
             a{
-                @include enlaces (none, 1s, none, black, 20px, 'Anek Devanagari' sans-serif, bold, 1px solid black, 5px, 5px, rgba(250, 235, 215, 0.575));
+                @include enlaces (none, 1s, none, black, 20px, 'Anek Devanagari' sans-serif, bold, 1px solid black, 5px, 5px, rgba(250, 235, 215, 0.575), 10%);
                 &:hover{
                     transform: scale(1.1);
                 }

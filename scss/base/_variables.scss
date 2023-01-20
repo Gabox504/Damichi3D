@@ -80,6 +80,7 @@ $subh2:(
     font-family: 'Anek Devanagari', sans-serif;
     font-weight: bold;
     border: 1px solid black;
+    border-radius: 10%;
     padding: 5px;
     margin: 5px;
     background-color: rgba(250, 235, 215, 0.575)
@@ -99,7 +100,7 @@ $subh2:(
 }
 
 /*----mixin----*/
-@mixin enlaces ($deco, $trans, $posicion, $col, $size, $font-f, $font-w, $bord, $padd, $mar, $bg-col){
+@mixin enlaces ($deco, $trans, $posicion, $col, $size, $font-f, $font-w, $bord, $padd, $mar, $bg-col, $radius){
     text-decoration: $deco;
     transition: $trans;
     position: $posicion;
@@ -111,4 +112,5 @@ $subh2:(
     padding: $padd;
     margin: $mar;
     background-color: $bg-col;
+    border-radius: $radius;
 }
