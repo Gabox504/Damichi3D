@@ -4,6 +4,11 @@
   padding: 0%;
   box-sizing: border-box; }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
 /*-----Extend-----*/
 main h1 {
   width: 100%;
@@ -110,7 +115,7 @@ header {
           font-size: 15px;
           font-family: 'Anek Devanagari', sans-serif; }
           header nav ul div .elaboracion-button a:hover {
-            color: blue; }
+            color: red; }
       header nav ul div .galeria-button {
         margin: 15px;
         transition: 1s; }
@@ -127,7 +132,7 @@ header {
           font-size: 15px;
           font-family: 'Anek Devanagari', sans-serif; }
           header nav ul div .galeria-button a:hover {
-            color: blue; }
+            color: red; }
     header nav ul .index-button {
       transition: 1s; }
       header nav ul .index-button:hover {
@@ -156,7 +161,7 @@ header {
           font-size: 15px;
           font-family: 'Anek Devanagari', sans-serif; }
           header nav ul div .nosotros-button a:hover {
-            color: blue; }
+            color: red; }
       header nav ul div .contacto-button {
         margin: 15px;
         transition: 1s; }
@@ -173,7 +178,7 @@ header {
           font-size: 15px;
           font-family: 'Anek Devanagari', sans-serif; }
           header nav ul div .contacto-button a:hover {
-            color: blue; }
+            color: red; }
 
 /*---INDEX---*/
 .hero {
@@ -469,6 +474,8 @@ main .servicios {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     scroll-margin-top: 130px; }
     main .servicios .modelado-3d .model-text {
       padding-left: 0px;
@@ -492,7 +499,9 @@ main .servicios {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    scroll-margin-top: 130px; }
+    scroll-margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto; }
     main .servicios .impresion-3d .impresion-text {
       padding-left: 0px;
       padding-right: 0px; }
@@ -515,6 +524,8 @@ main .servicios {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     scroll-margin-top: 130px; }
     main .servicios .pintado .pintado-text {
       padding-left: 0px;
@@ -537,7 +548,9 @@ main .servicios {
   main .servicios .reparacion {
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto; }
     main .servicios .reparacion .reparacion-text {
       padding-left: 0px;
       padding-right: 0px; }
@@ -595,7 +608,8 @@ footer {
   background-color: rgba(0, 0, 0, 0.897);
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-top: auto; }
   footer div h2 {
     text-align: center;
     color: white;
