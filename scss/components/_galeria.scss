@@ -38,7 +38,8 @@ main
             flex-wrap: wrap;
             gap: 20px;
             padding: 15px;
-            scroll-margin-top: 180px;
+            scroll-margin-top: 190px;
+            background-color: nth($list: $colores, $n: 4);
             .galeria-macetas-uno{
                 @extend %gal-tarjeta;
                 img{
@@ -119,7 +120,7 @@ main
             flex-wrap: wrap;
             gap: 20px;
             padding: 15px;
-            scroll-margin-top: 180px;
+            scroll-margin-top: 190px;
             .galeria-llaveros-uno{
                 @extend %gal-tarjeta;
                 img{
@@ -152,7 +153,8 @@ main
             flex-wrap: wrap;
             gap: 20px;
             padding: 15px;
-            scroll-margin-top: 180px;
+            scroll-margin-top: 190px;
+            background-color: nth($list: $colores, $n: 4);
             .galeria-figuras-uno{
                 @extend %gal-tarjeta;
                 img{

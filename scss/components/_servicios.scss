@@ -38,6 +38,7 @@ main{
             .model-text{
                 padding-left: 0px;
                 padding-right: 0px;
+                background-color: nth($list: $colores, $n: 4);
                 h2{
                     @extend %pag-h2;
                 }
@@ -104,6 +105,7 @@ main{
                 .pintado-text{
                     padding-left: 0px;
                     padding-right: 0px;
+                    background-color: nth($list: $colores, $n: 4);
                     h2{
                         @extend %pag-h2;
                     }

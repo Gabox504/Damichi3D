@@ -394,7 +394,8 @@ main .grid-proceso {
     flex-wrap: wrap;
     gap: 20px;
     padding: 15px;
-    scroll-margin-top: 180px; }
+    scroll-margin-top: 190px;
+    background-color: antiquewhite; }
     .galeria .galeria-macetas .galeria-macetas-uno a:hover {
       transform: scale(1.1); }
     .galeria .galeria-macetas .galeria-macetas-dos a:hover {
@@ -414,7 +415,7 @@ main .grid-proceso {
     flex-wrap: wrap;
     gap: 20px;
     padding: 15px;
-    scroll-margin-top: 180px; }
+    scroll-margin-top: 190px; }
     .galeria .galeria-llaveros .galeria-llaveros-uno a:hover {
       transform: scale(1.1); }
     .galeria .galeria-llaveros .galeria-llaveros-dos a:hover {
@@ -426,7 +427,8 @@ main .grid-proceso {
     flex-wrap: wrap;
     gap: 20px;
     padding: 15px;
-    scroll-margin-top: 180px; }
+    scroll-margin-top: 190px;
+    background-color: antiquewhite; }
     .galeria .galeria-figuras .galeria-figuras-uno a:hover {
       transform: scale(1.1); }
     .galeria .galeria-figuras .galeria-figuras-dos a:hover {
@@ -479,7 +481,8 @@ main .servicios {
     scroll-margin-top: 130px; }
     main .servicios .modelado-3d .model-text {
       padding-left: 0px;
-      padding-right: 0px; }
+      padding-right: 0px;
+      background-color: antiquewhite; }
       main .servicios .modelado-3d .model-text p {
         width: 100%;
         color: black;
@@ -529,7 +532,8 @@ main .servicios {
     scroll-margin-top: 130px; }
     main .servicios .pintado .pintado-text {
       padding-left: 0px;
-      padding-right: 0px; }
+      padding-right: 0px;
+      background-color: antiquewhite; }
       main .servicios .pintado .pintado-text p {
         width: 100%;
         color: black;

@@ -59,7 +59,7 @@ main
         align-items: center;
         flex-wrap: wrap;
         margin-bottom: 5px;
-        background-color: antiquewhite;
+        background-color: nth($list: $colores, $n: 4);
         .productos-macetas{
             @extend %ind-tarjeta;
             &:hover{

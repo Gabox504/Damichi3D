@@ -58,7 +58,7 @@ header{
                         font-size: 15px;
                         font-family: 'Anek Devanagari', sans-serif;
                         &:hover{
-                            color: red;
+                            color: nth($list: $colores, $n:1);
                         }
                     }
                 }
@@ -98,7 +98,7 @@ header{
                         font-size: 15px;
                         font-family: 'Anek Devanagari', sans-serif;
                         &:hover{
-                            color: red;
+                            color: nth($list: $colores, $n:1);
                         }
                     }
                 }
@@ -120,7 +120,7 @@ header{
                         font-size: 15px;
                         font-family: 'Anek Devanagari', sans-serif;
                         &:hover{
-                            color: red;
+                            color: nth($list: $colores, $n:1);
                         }
                     }
                 }
